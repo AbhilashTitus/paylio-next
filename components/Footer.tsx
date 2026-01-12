@@ -60,9 +60,9 @@ export default function Footer() {
                             <Image
                                 src="/assets/Paylio logo.svg"
                                 alt="Paylio Logo"
-                                width={120}
-                                height={40}
-                                className="h-8 w-auto mb-4"
+                                width={150}
+                                height={50}
+                                className="h-10 w-auto mb-4"
                             />
                         </Link>
                         <p className="text-slate-500 max-w-xs leading-relaxed">
@@ -80,7 +80,7 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    <div>
+                    {/* <div>
                         <h5 className="font-bold text-primary mb-6">Company</h5>
                         <ul className="space-y-4 text-slate-500 text-sm">
                             <li><Link href="#" className="hover:text-primary transition-colors">About Us</Link></li>
@@ -88,7 +88,7 @@ export default function Footer() {
                             <li><Link href="#" className="hover:text-primary transition-colors">Blog</Link></li>
                             <li><Link href="#" className="hover:text-primary transition-colors">Trust</Link></li>
                         </ul>
-                    </div>
+                    </div> */}
 
                     <div>
                         <h5 className="font-bold text-primary mb-6">Legal</h5>
@@ -109,13 +109,13 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="border-t border-slate-200 pt-12 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-slate-500">
-                    <p>© 2024 Paylio Inc. All rights reserved.</p>
-                    <div className="flex gap-8">
+                <div className="border-t border-slate-200 pt-12 flex flex-col items-center justify-center gap-6 text-sm text-slate-500 text-center">
+                    <p>© 2026 Paylio. An Ignivox Tech Pvt Ltd Ecosystem.</p>
+                    {/* <div className="flex gap-8">
                         <Link href="#" className="hover:text-primary underline-offset-4 hover:underline">Twitter</Link>
                         <Link href="#" className="hover:text-primary underline-offset-4 hover:underline">LinkedIn</Link>
                         <Link href="#" className="hover:text-primary underline-offset-4 hover:underline">Instagram</Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </footer>

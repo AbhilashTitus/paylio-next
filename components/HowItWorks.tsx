@@ -31,10 +31,12 @@ const steps = [
 export default function HowItWorks() {
     const [activeStep, setActiveStep] = useState(0);
 
-    // Auto-switch steps every 5 seconds
+    // Auto-switch steps every 5 seconds, but only when tab is active
     useEffect(() => {
         const interval = setInterval(() => {
-            setActiveStep((prev) => (prev + 1) % steps.length);
+            if (document.hasFocus()) {
+                setActiveStep((prev) => (prev + 1) % steps.length);
+            }
         }, 5000);
         return () => clearInterval(interval);
     }, []);
@@ -59,7 +61,7 @@ export default function HowItWorks() {
                                     className={cn(
                                         "w-full text-left p-6 rounded-2xl transition-all duration-300 border-2",
                                         activeStep === index
-                                            ? "bg-white border-primary/10 shadow-lg scale-[1.02]"
+                                            ? "bg-white border-primary/10 shadow-lg"
                                             : "bg-transparent border-transparent opacity-60 hover:opacity-100"
                                     )}
                                 >
@@ -74,15 +76,16 @@ export default function HowItWorks() {
                                             {step.title}
                                         </h4>
                                     </div>
-                                    {activeStep === index && (
-                                        <motion.p
-                                            initial={{ opacity: 0, height: 0 }}
-                                            animate={{ opacity: 1, height: "auto" }}
-                                            className="text-slate-500 ml-12"
-                                        >
+                                    <div
+                                        className={cn(
+                                            "ml-12 overflow-hidden transition-all duration-500 ease-in-out",
+                                            activeStep === index ? "max-h-40 opacity-100 mt-2" : "max-h-0 opacity-0 mt-0"
+                                        )}
+                                    >
+                                        <p className="text-slate-500">
                                             {step.description}
-                                        </motion.p>
-                                    )}
+                                        </p>
+                                    </div>
                                 </button>
                             ))}
                         </div>
