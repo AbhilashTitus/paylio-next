@@ -82,6 +82,4 @@ body {
   overflow-x: hidden !important;
   /* Force prevent horizontal scroll */
   width: 100%;
-  overscroll-behavior-y: none;
-  /* Optional: prevents rubber-banding which can feel like ghost scroll */
 }

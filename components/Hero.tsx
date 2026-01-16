@@ -100,7 +100,7 @@ export default function Hero() {
                             className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto"
                         >
                             <button className="w-full sm:w-auto bg-accent text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-primary transition-all shadow-xl shadow-accent/20 hover:-translate-y-1 active:scale-95 leading-none">
-                                Get Started Free
+                                App Launching Soon
                             </button>
                             <Link
                                 href="/demo"

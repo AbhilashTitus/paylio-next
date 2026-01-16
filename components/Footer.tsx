@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { Apple, PlayCircle } from "lucide-react";
+import { Apple, PlayCircle, Mail, Phone, MapPin } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -31,7 +31,7 @@ export default function Footer() {
 
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
                             <button className="w-full sm:w-auto bg-accent text-primary px-10 py-5 rounded-full font-bold text-lg hover:bg-white transition-all shadow-xl shadow-accent/20">
-                                Start using Paylio
+                                App Launching Soon
                             </button>
                             {/* <div className="flex gap-4">
                                 <button className="flex items-center gap-2 px-6 py-4 rounded-2xl bg-white/10 text-white border border-white/10 hover:bg-white/20 transition-all font-medium">
@@ -73,10 +73,9 @@ export default function Footer() {
                     <div>
                         <h5 className="font-bold text-primary mb-6">Product</h5>
                         <ul className="space-y-4 text-slate-500 text-sm">
-                            <li><Link href="#" className="hover:text-primary transition-colors">Invoicing</Link></li>
-                            <li><Link href="#" className="hover:text-primary transition-colors">UPI Payments</Link></li>
-                            <li><Link href="#" className="hover:text-primary transition-colors">Analytics</Link></li>
-                            <li><Link href="#" className="hover:text-primary transition-colors">PCPS Score</Link></li>
+                            <li><Link href="/#features" className="hover:text-primary transition-colors">Invoicing</Link></li>
+                            <li><Link href="/#features" className="hover:text-primary transition-colors">UPI Payments</Link></li>
+                            <li><Link href="/#analytics" className="hover:text-primary transition-colors">Analytics</Link></li>
                         </ul>
                     </div>
 
@@ -93,18 +92,37 @@ export default function Footer() {
                     <div>
                         <h5 className="font-bold text-primary mb-6">Legal</h5>
                         <ul className="space-y-4 text-slate-500 text-sm">
-                            <li><Link href="#" className="hover:text-primary transition-colors">Privacy</Link></li>
-                            <li><Link href="#" className="hover:text-primary transition-colors">Terms</Link></li>
-                            <li><Link href="#" className="hover:text-primary transition-colors">Security</Link></li>
+                            <li><Link href="/privacy-policy" className="hover:text-primary transition-colors">Privacy</Link></li>
+                            <li><Link href="/terms-of-service" className="hover:text-primary transition-colors">Terms</Link></li>
                         </ul>
                     </div>
 
-                    <div>
+                    {/* <div>
                         <h5 className="font-bold text-primary mb-6">Support</h5>
                         <ul className="space-y-4 text-slate-500 text-sm">
                             <li><Link href="#" className="hover:text-primary transition-colors">Help Center</Link></li>
-                            <li><Link href="#" className="hover:text-primary transition-colors">Contact</Link></li>
+                            <li><Link href="#" className="hover:text-primary transition-colors">Support Chat</Link></li>
                             <li><Link href="#" className="hover:text-primary transition-colors">Status</Link></li>
+                        </ul>
+                    </div> */}
+
+                    <div className="col-span-2 md:col-span-2 lg:col-span-2">
+                        <h5 className="font-bold text-primary mb-6">Contact Us</h5>
+                        <ul className="space-y-4 text-slate-500 text-sm">
+                            <li className="flex items-start gap-3">
+                                <Mail className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                                <a href="mailto:info@paylio.in" className="hover:text-primary transition-colors break-words">info@paylio.in</a>
+                            </li>
+                            <li className="flex items-start gap-3">
+                                <Phone className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                                <a href="tel:+918431191991" className="hover:text-primary transition-colors">+91 8431191991</a>
+                            </li>
+                            <li className="flex items-start gap-3">
+                                <MapPin className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                                <address className="leading-relaxed not-italic text-xs">
+                                    Plumeria, 17 CPR Layout Road, Haralur Main Rd, opp. OZONE EVERGREENS, PWD Quarters, Apartment, HSR Layout, Bengaluru, Karnataka 560102
+                                </address>
+                            </li>
                         </ul>
                     </div>
                 </div>

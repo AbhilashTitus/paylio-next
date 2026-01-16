@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 export default function DemoPage() {
     return (
-        <div className="min-h-screen bg-white flex flex-col items-center justify-center p-6 relative overflow-hidden selection:bg-accent/20">
+        <div className="min-h-screen bg-white flex flex-col items-center justify-center p-6 relative overflow-x-hidden selection:bg-accent/20">
             {/* Background Gradients */}
             <div className="absolute inset-0 z-0 pointer-events-none">
                 <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-accent/5 blur-[150px] rounded-full" />

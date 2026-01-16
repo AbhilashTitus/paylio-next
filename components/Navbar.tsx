@@ -60,7 +60,7 @@ export default function Navbar() {
                         Log in
                     </button>
                     <button className="bg-accent text-white px-7 py-3 rounded-full hover:bg-primary transition-all shadow-lg shadow-accent/20 hover:-translate-y-0.5 active:scale-95 leading-none">
-                        Download Now
+                        App Launching Soon
                     </button>
                 </div>
 
@@ -126,7 +126,7 @@ export default function Navbar() {
                                 Log in
                             </button>
                             <button className="bg-accent text-white text-xl font-bold px-8 py-5 rounded-2xl hover:bg-primary transition-all shadow-xl shadow-accent/10 active:scale-95 leading-none">
-                                Download Now
+                                App Launching Soon
                             </button>
                         </motion.div>
                     </motion.div>
