@@ -32,7 +32,7 @@ export default function PrivacyPolicy() {
                     className="max-w-4xl mx-auto bg-white rounded-[2rem] p-8 md:p-14 shadow-sm border border-slate-100 prose prose-slate max-w-none hover:prose-a:text-accent prose-headings:font-heading prose-headings:text-primary"
                 >
                     <p className="lead">
-                        Paylio ("we," "our," or "us"), operated by Ignivox Tech Pvt Ltd, is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our mobile application (collectively, the "Platform").
+                        Paylio ("we," "our," or "us"), operated by Alenova Technologies Private Limited, is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our mobile application (collectively, the "Platform").
                     </p>
                     <p>
                         This Privacy Policy is published in accordance with the provisions of the Information Technology Act, 2000 and the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011 ("SPDI Rules").
@@ -92,11 +92,11 @@ export default function PrivacyPolicy() {
                     </p>
                     <div className="bg-slate-50 p-6 rounded-2xl not-prose mt-4 border border-slate-100">
                         <p className="font-bold text-primary">Grievance Officer</p>
-                        <p className="text-sm mt-1">Ignivox Tech Pvt Ltd</p>
-                        <p className="text-sm mt-1">Plumeria, 17 CPR Layout Road, Haralur Main Rd</p>
-                        <p className="text-sm">HSR Layout, Bengaluru, Karnataka 560102</p>
+                        <p className="text-sm mt-1">Alenova Technologies Private Limited</p>
+                        <p className="text-sm mt-1">2nd Floor, Shamanna Reddy Building, 70/5, Rajiv Gandhi Nagar</p>
+                        <p className="text-sm">Bommanahalli, Bengaluru, Karnataka 560068</p>
                         <p className="text-sm mt-2"><strong>Email:</strong> info@paylio.in</p>
-                        <p className="text-sm"><strong>Phone:</strong> +91 8431191991</p>
+                        <p className="text-sm"><strong>Phone:</strong> +91 8904284704</p>
                     </div>
 
                     <h3>7. Changes to This Policy</h3>

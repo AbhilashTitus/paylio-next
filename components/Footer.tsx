@@ -115,20 +115,19 @@ export default function Footer() {
                             </li>
                             <li className="flex items-start gap-3">
                                 <Phone className="w-5 h-5 text-accent shrink-0 mt-0.5" />
-                                <a href="tel:+918431191991" className="hover:text-primary transition-colors">+91 8431191991</a>
+                                <a href="tel:+918904284704" className="hover:text-primary transition-colors">+91 8904284704</a>
                             </li>
                             <li className="flex items-start gap-3">
                                 <MapPin className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                                 <address className="leading-relaxed not-italic text-xs">
-                                    Plumeria, 17 CPR Layout Road, Haralur Main Rd, opp. OZONE EVERGREENS, PWD Quarters, Apartment, HSR Layout, Bengaluru, Karnataka 560102
-                                </address>
+                                    2nd Floor, Shamanna Reddy Building, 70/5, Rajiv Gandhi Nagar,Bommanahalli, Bengaluru, Karnataka 560068</address>
                             </li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="border-t border-slate-200 pt-12 flex flex-col items-center justify-center gap-6 text-sm text-slate-500 text-center">
-                    <p>© 2026 Paylio. An Ignivox Tech Pvt Ltd Ecosystem.</p>
+                    <p>© 2026 Paylio. Alenova Technologies Private Limited</p>
                     {/* <div className="flex gap-8">
                         <Link href="#" className="hover:text-primary underline-offset-4 hover:underline">Twitter</Link>
                         <Link href="#" className="hover:text-primary underline-offset-4 hover:underline">LinkedIn</Link>

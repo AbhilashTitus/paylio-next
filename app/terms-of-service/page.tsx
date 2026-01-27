@@ -32,7 +32,7 @@ export default function TermsOfService() {
                     className="max-w-4xl mx-auto bg-white rounded-[2rem] p-8 md:p-14 shadow-sm border border-slate-100 prose prose-slate max-w-none hover:prose-a:text-accent prose-headings:font-heading prose-headings:text-primary"
                 >
                     <p className="lead">
-                        Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the Paylio website and mobile application (the "Service") operated by Ignivox Tech Pvt Ltd ("us", "we", or "our").
+                        Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the Paylio website and mobile application (the "Service") operated by Alenova Technologies Private Limited ("us", "we", or "our").
                     </p>
                     <p>
                         Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users, and others who access or use the Service.
@@ -60,7 +60,7 @@ export default function TermsOfService() {
 
                     <h3>4. Intellectual Property</h3>
                     <p>
-                        The Service and its original content (excluding Content provided by users), features, and functionality are and will remain the exclusive property of Ignivox Tech Pvt Ltd and its licensors. The Service is protected by copyright, trademark, and other laws of India.
+                        The Service and its original content (excluding Content provided by users), features, and functionality are and will remain the exclusive property of Alenova Technologies Private Limited and its licensors. The Service is protected by copyright, trademark, and other laws of India.
                     </p>
 
                     <h3>5. Links to Other Web Sites</h3>
@@ -70,7 +70,7 @@ export default function TermsOfService() {
 
                     <h3>6. Limitation of Liability</h3>
                     <p>
-                        In no event shall Ignivox Tech Pvt Ltd, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; and (iv) unauthorized access, use or alteration of your transmissions or content.
+                        In no event shall Alenova Technologies Private Limited, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; and (iv) unauthorized access, use or alteration of your transmissions or content.
                     </p>
 
                     <h3>7. Governing Law</h3>
@@ -88,10 +88,11 @@ export default function TermsOfService() {
                         If you have any questions about these Terms, please contact us:
                     </p>
                     <div className="bg-slate-50 p-6 rounded-2xl not-prose mt-4 border border-slate-100">
-                        <p className="font-bold text-primary">Ignivox Tech Pvt Ltd</p>
-                        <p className="text-sm mt-1">Plumeria, 17 CPR Layout Road, Haralur Main Rd</p>
-                        <p className="text-sm">HSR Layout, Bengaluru, Karnataka 560102</p>
+                        <p className="text-sm mt-1">Alenova Technologies Private Limited</p>
+                        <p className="text-sm mt-1">2nd Floor, Shamanna Reddy Building, 70/5, Rajiv Gandhi Nagar</p>
+                        <p className="text-sm">Bommanahalli, Bengaluru, Karnataka 560068</p>
                         <p className="text-sm mt-2"><strong>Email:</strong> info@paylio.in</p>
+                        <p className="text-sm"><strong>Phone:</strong> +91 8904284704</p>
                     </div>
                 </motion.div>
             </section>
