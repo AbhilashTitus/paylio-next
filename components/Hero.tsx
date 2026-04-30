@@ -81,7 +81,7 @@ export default function Hero() {
                             className="text-4xl md:text-6xl lg:text-[5.5rem] font-black leading-[1.1] md:leading-[1] mb-8 text-primary tracking-tight"
                         >
                             The financial OS for <br />
-                            <span className="text-accent underline decoration-accent/10 underline-offset-8">freelancers & agencies</span>
+                            <span className="text-accent underline decoration-accent/10 underline-offset-8">freelancers & creators</span>
                         </motion.h1>
 
                         <motion.p
